@@ -14,7 +14,7 @@ def hello_user(username):
     return 'Why Hello %s!\n' % username
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')  # open for everyone
+    #app.run(host='0.0.0.0')  # open for everyone
     ############# Add these lines #############
     import xmlrunner
     runner = xmlrunner.XMLTestRunner(output='test-reports')

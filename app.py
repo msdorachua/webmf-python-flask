@@ -15,7 +15,7 @@ def hello_user(username):
 
 @app.route('/hellodora') # dynamic route
 @app.route('/hellodorachua') # dynamic route
-@app.route('/hellodorachuahh') # dynamic route
+@app.route('/hellodorachuah') # dynamic route
 def hellodora():
     # show the user profile for that user
     return 'Hello Dora'

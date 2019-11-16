@@ -13,6 +13,12 @@ def hello_user(username):
     # show the user profile for that user
     return 'Why Hello %s!\n' % username
 
+@app.route('/hellodora') # dynamic route
+@app.route('/hellodorachua') # dynamic route
+def hellodora():
+    # show the user profile for that user
+    return 'Hello Dora'
+
 if __name__ == '__main__':
     #app.run(host='0.0.0.0')  # open for everyone
     ############# Add these lines #############
